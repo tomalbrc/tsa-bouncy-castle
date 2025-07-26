@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "Toms Server Additions: Bouncy Castle",
+  "version": "${version}",
+  "name": "tsa-bouncy-castle",
+  "description": "Colorful Bouncy Blocks!",
+  "authors": ["tomalbrc"],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "bouncy-blocks.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "de.tomalbrc.tsaBouncyCastle.TsaBouncyCastle"
+    ]
+  },
+  "mixins": [
+    "tsa-bouncy-castle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "filament": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

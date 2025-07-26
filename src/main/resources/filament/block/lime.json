@@ -1,0 +1,43 @@
+{
+  "id": "tsa:lime_bouncy_block",
+  "translations": {
+    "en_us": "Lime Bouncy Block"
+  },
+  "blockResource": {
+    "parent": "block/cube_column",
+    "textures": {
+      "axis=x": {
+        "x": 90,
+        "y": 90,
+        "textures": {
+          "end": "tsabouncy:block/custom/bouncy/lime_bouncy_block",
+          "side": "tsabouncy:block/custom/bouncy/lime_bouncy_block"
+        }
+      },
+      "axis=y": {
+        "end": "tsabouncy:block/custom/bouncy/lime_bouncy_block",
+        "side": "tsabouncy:block/custom/bouncy/lime_bouncy_block"
+      },
+      "axis=z": {
+        "x": 90,
+        "textures": {
+          "end": "tsabouncy:block/custom/bouncy/lime_bouncy_block",
+          "side": "tsabouncy:block/custom/bouncy/lime_bouncy_block"
+        }
+      }
+    }
+  },
+  "properties": {
+    "blockBase": "minecraft:slime_block",
+    "destroyTime": 1.0,
+    "requiresTool": false
+  },
+  "behaviour": {
+    "axis": {},
+    "bouncy": {
+      "bounciness": 1.4,
+      "max": 1
+    }
+  },
+  "blockModelType": "full_block"
+}

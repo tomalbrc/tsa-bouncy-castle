@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#D#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:slime_block",
+        "D": "minecraft:white_dye"
+    },
+    "result": {
+        "id": "tsa:white_bouncy_block",
+        "count": 1
+    }
+}
