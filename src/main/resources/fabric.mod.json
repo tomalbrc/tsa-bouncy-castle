@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "Toms Server Additions: Bouncy Castle",
+  "id": "tsa-bouncy-castle",
   "version": "${version}",
   "name": "tsa-bouncy-castle",
   "description": "Colorful Bouncy Blocks!",
